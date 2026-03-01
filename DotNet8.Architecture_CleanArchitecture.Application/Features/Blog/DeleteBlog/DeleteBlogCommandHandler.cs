@@ -1,5 +1,5 @@
 ﻿namespace DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.DeleteBlog;
 
-internal class DeleteBlogCommandHandler
+public class DeleteBlogCommandHandler
 {
 }
