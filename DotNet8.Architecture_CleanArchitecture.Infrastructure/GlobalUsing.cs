@@ -1,5 +1,4 @@
-﻿
-namespace DotNet8.Architecture_CleanArchitecture.Infrastructure
+﻿namespace DotNet8.Architecture_CleanArchitecture.Infrastructure
 {
 	internal class GlobalUsing
 	{
