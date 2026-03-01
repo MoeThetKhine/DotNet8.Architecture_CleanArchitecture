@@ -1,7 +1,4 @@
-﻿using System.Text;
-using System.Threading.Tasks;
-
-namespace DotNet8.Architecture_CleanArchitecture.Utils.Resource
+﻿namespace DotNet8.Architecture_CleanArchitecture.Utils.Resource
 {
 	internal class MessageResource
 	{
