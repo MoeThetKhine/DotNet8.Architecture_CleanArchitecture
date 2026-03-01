@@ -1,6 +1,5 @@
-﻿namespace DotNet8.Architecture_CleanArchitecture.Utils.Resource
+﻿namespace DotNet8.Architecture_CleanArchitecture.Utils.Resource;
+
+internal class MessageResource
 {
-	internal class MessageResource
-	{
-	}
 }
