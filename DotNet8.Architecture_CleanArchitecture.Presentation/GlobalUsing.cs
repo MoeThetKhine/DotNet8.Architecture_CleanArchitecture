@@ -1,6 +1,5 @@
-﻿namespace DotNet8.Architecture_CleanArchitecture.Presentation
+﻿namespace DotNet8.Architecture_CleanArchitecture.Presentation;
+
+public class GlobalUsing
 {
-	public class GlobalUsing
-	{
-	}
 }
