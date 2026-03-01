@@ -1,6 +1,6 @@
 ﻿namespace DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.UpdateBlog
 {
-	internal class UpdateBlogCommand
+	public class UpdateBlogCommand
 	{
 	}
 }
