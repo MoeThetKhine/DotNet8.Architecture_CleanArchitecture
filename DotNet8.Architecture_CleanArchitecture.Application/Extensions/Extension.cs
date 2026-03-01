@@ -1,5 +1,5 @@
 ﻿namespace DotNet8.Architecture_CleanArchitecture.Application.Extensions;
 
-internal class Extension
+public class Extension
 {
 }
