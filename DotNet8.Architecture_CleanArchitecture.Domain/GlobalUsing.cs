@@ -1,6 +1,5 @@
-﻿namespace DotNet8.Architecture_CleanArchitecture.Domain
+﻿namespace DotNet8.Architecture_CleanArchitecture.Domain;
+
+internal class GlobalUsing
 {
-	internal class GlobalUsing
-	{
-	}
 }
