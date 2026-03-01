@@ -1,6 +1,5 @@
-﻿namespace DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.PatchBlog
+﻿namespace DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.PatchBlog;
+
+public class PatchBlogCommandHandler
 {
-	public class PatchBlogCommandHandler
-	{
-	}
 }
