@@ -1,6 +1,5 @@
-﻿namespace DotNet8.Architecture_CleanArchitecture.Utils
+﻿namespace DotNet8.Architecture_CleanArchitecture.Utils;
+
+internal class Result
 {
-	internal class Result
-	{
-	}
 }
