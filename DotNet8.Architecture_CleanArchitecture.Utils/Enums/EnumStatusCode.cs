@@ -1,5 +1,7 @@
 ﻿namespace DotNet8.Architecture_CleanArchitecture.Utils.Enums;
 
+#region EnumStatusCode
+
 public enum EnumStatusCode
 {
 	None,
@@ -12,3 +14,5 @@ public enum EnumStatusCode
 	Locked = 423,
 	InternalServerError = 500
 }
+
+#endregion
