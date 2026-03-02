@@ -1,7 +1,4 @@
-﻿global using DotNet8.Architecture_CleanArchitecture.DbService.Models;
-global using DotNet8.Architecture_CleanArchitecture.DTOs.Features.Blog;
-
-namespace DotNet8.Architecture_CleanArchitecture.Extension;
+﻿namespace DotNet8.Architecture_CleanArchitecture.Extension;
 
 public static class Extension
 {
