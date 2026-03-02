@@ -1,6 +1,4 @@
-﻿global using DotNet8.Architecture_CleanArchitecture.DTOs.PageSetting;
-
-namespace DotNet8.Architecture_CleanArchitecture.DTOs.Features.Blog;
+﻿namespace DotNet8.Architecture_CleanArchitecture.DTOs.Features.Blog;
 
 #region BlogListModel
 
