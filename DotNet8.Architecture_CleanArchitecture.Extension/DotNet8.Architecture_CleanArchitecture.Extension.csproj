@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DotNet8.Architecture_CleanArchitecture.Domain\DotNet8.Architecture_CleanArchitecture.Domain.csproj" />
     <ProjectReference Include="..\DotNet8.Architecture_CleanArchitecture.DTOs\DotNet8.Architecture_CleanArchitecture.DTOs.csproj" />
   </ItemGroup>
 
