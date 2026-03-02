@@ -1,4 +1,5 @@
-﻿using DotNet8.Architecture_CleanArchitecture.DTOs.Features.Blog;
+﻿using DotNet8.Architecture_CleanArchitecture.Domain.Features.Blog;
+using DotNet8.Architecture_CleanArchitecture.DTOs.Features.Blog;
 
 namespace DotNet8.Architecture_CleanArchitecture.Extension;
 
@@ -13,6 +14,16 @@ public static class Extension
 			BlogAuthor = dataModel.BlogAuthor,
 			BlogContent = dataModel.BlogContent,
 			DeleteFlag = dataModel.DeleteFlag
+		};
+	}
+
+	public static Tbl_Blog ToEntity(this BlogRequestModel model)
+	{
+		return new Tbl_Blog
+		{
+			BlogTitle = model.BlogTitle,
+			BlogAuthor = model.BlogAuthor,
+			BlogContent = model.BlogContent
 		};
 	}
 }
