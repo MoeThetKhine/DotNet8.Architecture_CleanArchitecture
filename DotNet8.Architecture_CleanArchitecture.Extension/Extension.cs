@@ -1,8 +1,12 @@
-﻿namespace DotNet8.Architecture_CleanArchitecture.Extension;
+﻿using DotNet8.Architecture_CleanArchitecture.DbService.Models;
+using DotNet8.Architecture_CleanArchitecture.DTOs.Features.Blog;
+
+namespace DotNet8.Architecture_CleanArchitecture.Extension;
 
 public static class Extension
 {
-	public static BlogModel ToModel(this Tbl_Blog dataModel)
+
+	public static BlogModel ToModel(this TblBlog dataModel)
 	{
 		return new BlogModel
 		{
@@ -14,13 +18,6 @@ public static class Extension
 		};
 	}
 
-	public static Tbl_Blog ToEntity(this BlogRequestModel model)
-	{
-		return new Tbl_Blog
-		{
-			BlogTitle = model.BlogTitle,
-			BlogAuthor = model.BlogAuthor,
-			BlogContent = model.BlogContent
-		};
-	}
+
+
 }
