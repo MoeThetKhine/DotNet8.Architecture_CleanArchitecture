@@ -25,6 +25,8 @@ public class Result<T>
 
 	#endregion
 
+	#region Success
+
 	public static Result<T> Success(T data, string message = "Success.", EnumStatusCode statusCode = EnumStatusCode.Success)
 	{
 		return new Result<T>
@@ -35,6 +37,8 @@ public class Result<T>
 			StatusCode = statusCode
 		};
 	}
+
+	#endregion
 
 	public static Result<T> SaveSuccess(string message = "Saving Successful.", EnumStatusCode statusCode = EnumStatusCode.Success)
 	{
