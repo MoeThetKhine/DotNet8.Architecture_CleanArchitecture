@@ -1,6 +1,5 @@
-﻿namespace DotNet8.Architecture_CleanArchitecture.DTOs.Features.Blog
+﻿namespace DotNet8.Architecture_CleanArchitecture.DTOs.Features.Blog;
+
+internal class BlogListModel
 {
-	internal class BlogListModel
-	{
-	}
 }
