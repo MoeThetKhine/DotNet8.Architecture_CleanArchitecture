@@ -2,6 +2,8 @@
 
 namespace DotNet8.Architecture_CleanArchitecture.Utils;
 
+#region Result
+
 public class Result<T>
 { 
 	public T Data { get; set; }
@@ -103,3 +105,5 @@ public class Result<T>
 	#endregion
 
 }
+
+#endregion
