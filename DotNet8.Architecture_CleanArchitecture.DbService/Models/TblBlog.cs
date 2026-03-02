@@ -2,6 +2,8 @@
 
 namespace DotNet8.Architecture_CleanArchitecture.DbService.Models;
 
+#region TblBlog
+
 public partial class TblBlog
 {
 	[Key]
@@ -15,3 +17,5 @@ public partial class TblBlog
 
 	public bool DeleteFlag { get; set; }
 }
+
+#endregion
