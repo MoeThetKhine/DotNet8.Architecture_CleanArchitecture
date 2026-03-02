@@ -1,5 +1,5 @@
 ﻿namespace DotNet8.Architecture_CleanArchitecture.DbService.Models;
 
-internal class TaskCategory
+public class TaskCategory
 {
 }
