@@ -1,6 +1,4 @@
-﻿global using DotNet8.Architecture_CleanArchitecture.Utils.Enums;
-
-namespace DotNet8.Architecture_CleanArchitecture.Utils;
+﻿namespace DotNet8.Architecture_CleanArchitecture.Utils;
 
 #region Result
 
