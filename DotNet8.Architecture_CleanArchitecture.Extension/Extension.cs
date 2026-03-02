@@ -1,11 +1,8 @@
-﻿using DotNet8.Architecture_CleanArchitecture.Domain.Features.Blog;
-using DotNet8.Architecture_CleanArchitecture.DTOs.Features.Blog;
-
-namespace DotNet8.Architecture_CleanArchitecture.Extension;
+﻿namespace DotNet8.Architecture_CleanArchitecture.Extension;
 
 public static class Extension
 {
-	public static BlogModel ToModel(this TblBlog dataModel)
+	public static BlogModel ToModel(this Tbl_Blog dataModel)
 	{
 		return new BlogModel
 		{
