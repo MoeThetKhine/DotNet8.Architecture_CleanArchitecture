@@ -1,4 +1,4 @@
-﻿using DotNet8.Architecture_CleanArchitecture.DTOs.PageSetting;
+﻿global using DotNet8.Architecture_CleanArchitecture.DTOs.PageSetting;
 
 namespace DotNet8.Architecture_CleanArchitecture.DTOs.Features.Blog;
 
