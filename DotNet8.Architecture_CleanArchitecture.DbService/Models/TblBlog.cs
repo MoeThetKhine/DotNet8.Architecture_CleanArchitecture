@@ -1,6 +1,5 @@
-﻿namespace DotNet8.Architecture_CleanArchitecture.DbService.Models
+﻿namespace DotNet8.Architecture_CleanArchitecture.DbService.Models;
+
+internal class TblBlog
 {
-	internal class TblBlog
-	{
-	}
 }
