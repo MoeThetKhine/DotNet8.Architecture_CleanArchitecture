@@ -14,6 +14,4 @@ public class MessageResource
 	public static string InvalidId { get; } = "Id is invalid.";
 	public static string InvalidPageNo { get; } = "Page No is invalid";
 	public static string InvalidPageSize { get; } = "Page Size is invalid.";
-
-
 }
