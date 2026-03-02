@@ -1,6 +1,4 @@
-﻿using System.Threading.Tasks;
-
-namespace DotNet8.Architecture_CleanArchitecture.DbService
+﻿namespace DotNet8.Architecture_CleanArchitecture.DbService
 {
 	internal class GlobalUsing
 	{
