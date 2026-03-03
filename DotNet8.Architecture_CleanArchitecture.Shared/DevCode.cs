@@ -1,6 +1,4 @@
-﻿global using Newtonsoft.Json;
-
-namespace DotNet8.Architecture_CleanArchitecture.Shared;
+﻿namespace DotNet8.Architecture_CleanArchitecture.Shared;
 
 #region DevCode
 
