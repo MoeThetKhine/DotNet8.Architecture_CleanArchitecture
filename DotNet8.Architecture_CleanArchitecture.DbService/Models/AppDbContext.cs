@@ -73,9 +73,12 @@ public partial class AppDbContext : DbContext
 				.HasForeignKey(d => d.CategoryId)
 				.HasConstraintName("FK__ToDoList__Catego__4E88ABD4");
 		});
-	}
 
-
-
+		OnModelCreatingPartial(modelBuilder);
 
 	}
+
+
+	partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+
+}
