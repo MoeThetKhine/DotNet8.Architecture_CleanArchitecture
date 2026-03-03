@@ -102,7 +102,6 @@ public partial class AppDbContext : DbContext
 
 	#endregion
 
-
 	partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 
 }
