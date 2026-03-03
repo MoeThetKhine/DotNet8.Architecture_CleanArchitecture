@@ -48,7 +48,33 @@ public partial class AppDbContext : DbContext
 			entity.Property(e => e.BlogId).ValueGeneratedOnAdd();
 			entity.Property(e => e.BlogTitle).HasMaxLength(50);
 		});
+
+		modelBuilder.Entity<ToDoList>(entity =>
+		{
+			entity.HasKey(e => e.TaskId).HasName("PK__ToDoList__7C6949D1F4B3258B");
+
+			entity.ToTable("ToDoList");
+
+			entity.Property(e => e.TaskId).HasColumnName("TaskID");
+			entity.Property(e => e.CategoryId).HasColumnName("CategoryID");
+			entity.Property(e => e.CompletedDate).HasColumnType("datetime");
+			entity.Property(e => e.CreatedDate)
+				.HasDefaultValueSql("(getdate())")
+				.HasColumnType("datetime");
+			entity.Property(e => e.Status)
+				.HasMaxLength(50)
+				.IsUnicode(false);
+			entity.Property(e => e.TaskDescription).HasColumnType("text");
+			entity.Property(e => e.TaskTitle)
+				.HasMaxLength(255)
+				.IsUnicode(false);
+
+			entity.HasOne(d => d.Category).WithMany(p => p.ToDoLists)
+				.HasForeignKey(d => d.CategoryId)
+				.HasConstraintName("FK__ToDoList__Catego__4E88ABD4");
+		});
 	}
+
 
 
 
