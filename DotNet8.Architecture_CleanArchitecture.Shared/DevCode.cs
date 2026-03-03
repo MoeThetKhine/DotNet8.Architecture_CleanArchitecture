@@ -1,5 +1,10 @@
-﻿namespace DotNet8.Architecture_CleanArchitecture.Shared;
+﻿using Newtonsoft.Json;
 
-public class DevCode
+namespace DotNet8.Architecture_CleanArchitecture.Shared;
+
+public static class DevCode
 {
+	public static string ToJson(this object obj) =>
+		JsonConvert.SerializeObject(obj, Newtonsoft.Json.Formatting.Indented);
+
 }
