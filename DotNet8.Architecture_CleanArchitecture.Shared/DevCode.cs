@@ -1,6 +1,4 @@
-﻿using System.Threading.Tasks;
-
-namespace DotNet8.Architecture_CleanArchitecture.Shared
+﻿namespace DotNet8.Architecture_CleanArchitecture.Shared
 {
 	internal class DevCode
 	{
