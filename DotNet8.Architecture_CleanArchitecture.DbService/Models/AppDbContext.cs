@@ -13,4 +13,12 @@ public partial class AppDbContext : DbContext
 	{
 	}
 
+	public virtual DbSet<TaskCategory> TaskCategories { get; set; }
+
+	public virtual DbSet<TblBlog> Tbl_Blogs { get; set; }
+
+	public virtual DbSet<ToDoList> ToDoLists { get; set; }
+
+
+
 }
