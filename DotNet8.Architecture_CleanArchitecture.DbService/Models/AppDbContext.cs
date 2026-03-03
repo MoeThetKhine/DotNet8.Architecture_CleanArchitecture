@@ -1,5 +1,7 @@
 ﻿namespace DotNet8.Architecture_CleanArchitecture.DbService.Models;
 
+#region AppDbContext
+
 public partial class AppDbContext : DbContext
 {
 	public AppDbContext()
@@ -101,5 +103,6 @@ public partial class AppDbContext : DbContext
 	#endregion
 
 	partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
-
 }
+
+#endregion
