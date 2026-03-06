@@ -3,6 +3,8 @@ using DotNet8.Architecture_CleanArchitecture.Utils.Resource;
 
 namespace DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.GetBlogById;
 
+#region GetBlogByIdQueryHandler
+
 public class GetBlogByIdQueryHandler : IRequestHandler<GetBlogByIdQuery, Result<BlogModel>>
 {
 	private readonly IBlogRepository _blogRepository;
@@ -33,3 +35,5 @@ public class GetBlogByIdQueryHandler : IRequestHandler<GetBlogByIdQuery, Result<
 	#endregion
 
 }
+
+#endregion
