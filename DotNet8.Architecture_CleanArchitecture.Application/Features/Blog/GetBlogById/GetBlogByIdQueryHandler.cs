@@ -15,6 +15,8 @@ public class GetBlogByIdQueryHandler : IRequestHandler<GetBlogByIdQuery, Result<
 		_blogRepository = blogRepository;
 	}
 
+
+
 	public async Task<Result<BlogModel>> Handle(GetBlogByIdQuery request, CancellationToken cancellationToken)
 	{
 		Result<BlogModel> result;
