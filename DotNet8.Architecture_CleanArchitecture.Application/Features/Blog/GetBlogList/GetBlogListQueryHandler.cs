@@ -1,8 +1,4 @@
-﻿using DotNet8.Architecture_CleanArchitecture.Utils;
-using DotNet8.Architecture_CleanArchitecture.Utils.Resource;
-using MediatR;
-
-namespace DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.GetBlogList;
+﻿namespace DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.GetBlogList;
 
 public class GetBlogListQueryHandler : IRequestHandler<GetBlogListQuery, Result<BlogListModelV1>>
 {
