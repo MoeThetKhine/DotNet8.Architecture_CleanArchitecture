@@ -1,5 +1,5 @@
-﻿using DotNet8.Architecture_CleanArchitecture.Domain.Features.Blog;
-using DotNet8.Architecture_CleanArchitecture.Utils.Resource;
+﻿global using DotNet8.Architecture_CleanArchitecture.Domain.Features.Blog;
+global using DotNet8.Architecture_CleanArchitecture.Utils.Resource;
 
 namespace DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.GetBlogById;
 
