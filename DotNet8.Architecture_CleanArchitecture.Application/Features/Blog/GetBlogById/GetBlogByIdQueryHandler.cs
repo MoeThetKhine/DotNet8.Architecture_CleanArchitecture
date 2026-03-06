@@ -1,6 +1,5 @@
 ﻿using DotNet8.Architecture_CleanArchitecture.Domain.Features.Blog;
 using DotNet8.Architecture_CleanArchitecture.Utils.Resource;
-using MediatR;
 
 namespace DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.GetBlogById;
 
