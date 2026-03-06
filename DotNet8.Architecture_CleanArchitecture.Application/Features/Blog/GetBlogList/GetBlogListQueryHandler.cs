@@ -1,6 +1,4 @@
-﻿using DotNet8.Architecture_CleanArchitecture.Domain.Features.Blog;
-using DotNet8.Architecture_CleanArchitecture.DTOs.Features.Blog;
-using DotNet8.Architecture_CleanArchitecture.Utils;
+﻿using DotNet8.Architecture_CleanArchitecture.Utils;
 using DotNet8.Architecture_CleanArchitecture.Utils.Resource;
 using MediatR;
 
