@@ -1,7 +1,4 @@
-﻿global using DotNet8.Architecture_CleanArchitecture.Domain.Features.Blog;
-global using DotNet8.Architecture_CleanArchitecture.Utils.Resource;
-
-namespace DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.GetBlogById;
+﻿namespace DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.GetBlogById;
 
 #region GetBlogByIdQueryHandler
 
