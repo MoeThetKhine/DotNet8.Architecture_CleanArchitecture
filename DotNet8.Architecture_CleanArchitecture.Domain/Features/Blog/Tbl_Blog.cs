@@ -1,5 +1,7 @@
 ﻿namespace DotNet8.Architecture_CleanArchitecture.Domain.Features.Blog;
 
+#region Tbl_Blog
+
 [Table("Tbl_Blog")]
 public class Tbl_Blog
 {
@@ -14,3 +16,5 @@ public class Tbl_Blog
 
 	public bool DeleteFlag { get; set; }
 }
+
+#endregion
