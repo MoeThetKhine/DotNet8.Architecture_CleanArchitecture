@@ -1,6 +1,4 @@
-﻿using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.UpdateBlog;
-
-namespace DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.PatchBlog;
+﻿namespace DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.PatchBlog;
 
 public class PatchBlogCommandHandler : IRequestHandler<PatchBlogCommand, Result<BlogModel>>
 {
