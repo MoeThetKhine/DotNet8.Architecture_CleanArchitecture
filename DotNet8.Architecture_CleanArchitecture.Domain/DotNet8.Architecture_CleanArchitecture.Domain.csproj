@@ -7,8 +7,6 @@
   </PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\DotNet8.Architectures.DTO\DotNet8.Architectures.DTO.csproj" />
-		<ProjectReference Include="..\DotNet8.Architectures.Utils\DotNet8.Architectures.Utils.csproj" />
 		<ProjectReference Include="..\DotNet8.Architecture_CleanArchitecture.DTOs\DotNet8.Architecture_CleanArchitecture.DTOs.csproj" />
 		<ProjectReference Include="..\DotNet8.Architecture_CleanArchitecture.Utils\DotNet8.Architecture_CleanArchitecture.Utils.csproj" />
 	</ItemGroup>
