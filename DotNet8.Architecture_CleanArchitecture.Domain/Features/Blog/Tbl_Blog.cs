@@ -1,7 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-
-namespace DotNet8.Architecture_CleanArchitecture.Domain.Features.Blog;
+﻿namespace DotNet8.Architecture_CleanArchitecture.Domain.Features.Blog;
 
 [Table("Tbl_Blog")]
 public class Tbl_Blog
