@@ -1,5 +1,11 @@
-﻿namespace DotNet8.Architecture_CleanArchitecture.Infrastructure.Features.Blog;
+﻿using DotNet8.Architecture_CleanArchitecture.Domain.Features.Blog;
+using Microsoft.EntityFrameworkCore;
 
-public class BlogDbContext
+namespace DotNet8.Architecture_CleanArchitecture.Infrastructure.Features.Blog;
+
+public class BlogDbContext : DbContext
 {
+	public BlogDbContext(DbContextOptions options) : base(options) { }
+
+	public DbSet<Tbl_Blog> Tbl_Blogs { get; set; }
 }
