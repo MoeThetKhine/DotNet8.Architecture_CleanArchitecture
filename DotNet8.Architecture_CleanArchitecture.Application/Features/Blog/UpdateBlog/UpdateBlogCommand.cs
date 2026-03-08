@@ -1,5 +1,7 @@
 ﻿namespace DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.UpdateBlog;
 
+#region UpdateBlogCommand
+
 public class UpdateBlogCommand : IRequest<Result<BlogModel>>
 {
 	public BlogRequestModel RequestModel { get; set; }
@@ -11,3 +13,5 @@ public class UpdateBlogCommand : IRequest<Result<BlogModel>>
 		BlogId = blogId;
 	}
 }
+
+#endregion
