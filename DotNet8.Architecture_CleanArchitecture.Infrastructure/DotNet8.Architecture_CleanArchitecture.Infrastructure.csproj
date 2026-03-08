@@ -10,4 +10,8 @@
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\DotNet8.Architecture_CleanArchitecture.Domain\DotNet8.Architecture_CleanArchitecture.Domain.csproj" />
+	</ItemGroup>
+
 </Project>
