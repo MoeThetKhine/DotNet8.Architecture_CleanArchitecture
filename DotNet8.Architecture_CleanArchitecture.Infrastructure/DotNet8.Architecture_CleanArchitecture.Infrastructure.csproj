@@ -12,6 +12,7 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\DotNet8.Architecture_CleanArchitecture.Domain\DotNet8.Architecture_CleanArchitecture.Domain.csproj" />
+	  <ProjectReference Include="..\DotNet8.Architecture_CleanArchitecture.Shared\DotNet8.Architecture_CleanArchitecture.Shared.csproj" />
 	</ItemGroup>
 
 </Project>
