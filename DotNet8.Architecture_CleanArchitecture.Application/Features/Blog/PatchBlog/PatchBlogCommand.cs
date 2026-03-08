@@ -1,5 +1,7 @@
 ﻿namespace DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.PatchBlog;
 
+#region PatchBlogCommand
+
 public class PatchBlogCommand : IRequest<Result<BlogModel>>
 {
 	public BlogRequestModel BlogRequestModel { get; set; }
@@ -11,3 +13,5 @@ public class PatchBlogCommand : IRequest<Result<BlogModel>>
 		BlogId = blogId;
 	}
 }
+
+#endregion
