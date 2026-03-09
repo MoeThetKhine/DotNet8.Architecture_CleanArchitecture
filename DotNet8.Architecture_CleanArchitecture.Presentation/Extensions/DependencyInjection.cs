@@ -7,9 +7,9 @@ namespace DotNet8.Architecture_CleanArchitecture.Presentation.Extensions;
 public static class DependencyInjection
 {
 
-	public static IServiceCollection AddDependencyInjection(this  IServiceCollection services, WebApplicationBuilder builder)
+	public static IServiceCollection AddDependencyInjection(this IServiceCollection services, WebApplicationBuilder builder)
 	{
-
+		return services.AddDbContextService(builder).AddRepositoryService();
 	}
 
 	private static IServiceCollection AddDbContextService(this IServiceCollection services, WebApplicationBuilder builder)
