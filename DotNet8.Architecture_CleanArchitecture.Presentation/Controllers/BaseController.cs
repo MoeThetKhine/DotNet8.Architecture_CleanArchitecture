@@ -1,7 +1,4 @@
-﻿using DotNet8.Architecture_CleanArchitecture.Shared;
-using Microsoft.AspNetCore.Mvc;
-
-namespace DotNet8.Architecture_CleanArchitecture.Presentation.Controllers;
+﻿namespace DotNet8.Architecture_CleanArchitecture.Presentation.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
