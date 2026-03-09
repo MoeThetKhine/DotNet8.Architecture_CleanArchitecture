@@ -87,5 +87,30 @@ public class BlogRepository : IBlogRepository
 		return result;
 	}
 
+	public async Task<Result<BlogModel>> CreateBlogAsync(BlogRequestModel blogRequest, CancellationToken cancellationToken)
+	{
+		Result<BlogModel> result;
+
+		try
+		{
+			var blog = new Tbl_Blog()
+			{
+				BlogTitle = blogRequest.BlogTitle,
+				BlogAuthor = blogRequest.BlogAuthor,
+				BlogContent = blogRequest.BlogContent,
+			};
+
+			await _dbContext.Tbl_Blogs.AddAsync(blog, cancellationToken);
+			await _dbContext.SaveChangesAsync();
+
+			result = Result<BlogModel>.SaveSuccess();
+		}
+		catch (Exception ex)
+		{
+			result = Result<BlogModel>.Failure(ex);
+		}
+	result:
+		return result;
+	}
 
 }
