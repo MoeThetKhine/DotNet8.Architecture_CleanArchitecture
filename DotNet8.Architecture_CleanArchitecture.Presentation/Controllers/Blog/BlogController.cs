@@ -1,6 +1,7 @@
 ﻿using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.CreateBlog;
 using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.GetBlogById;
 using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.GetBlogList;
+using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.PatchBlog;
 using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.UpdateBlog;
 using DotNet8.Architecture_CleanArchitecture.DTOs.Features.Blog;
 using MediatR;
@@ -51,6 +52,15 @@ public class BlogController : BaseController
 	{
 		var command = new UpdateBlogCommand(requestModel,id);
 		var result = await _mediator.Send(command,cancellationToken);
+
+		return Content(result);
+	}
+
+	[HttpPatch("{id}")]
+	public async Task<IActionResult> PatchBlogAsync([FromBody] BlogRequestModel requestModel, int id, CancellationToken cancellationToken)
+	{
+		var command = new PatchBlogCommand(requestModel,id);
+		var result = await _mediator.Send(command, cancellationToken);
 
 		return Content(result);
 	}
