@@ -1,13 +1,4 @@
-﻿using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.CreateBlog;
-using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.DeleteBlog;
-using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.GetBlogById;
-using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.GetBlogList;
-using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.PatchBlog;
-using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.UpdateBlog;
-using DotNet8.Architecture_CleanArchitecture.DTOs.Features.Blog;
-using MediatR;
-
-namespace DotNet8.Architecture_CleanArchitecture.Presentation.Controllers.Blog;
+﻿namespace DotNet8.Architecture_CleanArchitecture.Presentation.Controllers.Blog;
 
 [Route("api/[controller]")]
 [ApiController]
