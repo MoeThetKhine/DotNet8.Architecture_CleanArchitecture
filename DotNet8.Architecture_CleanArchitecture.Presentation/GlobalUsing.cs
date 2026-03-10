@@ -11,3 +11,5 @@ global using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.Pa
 global using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.UpdateBlog;
 global using DotNet8.Architecture_CleanArchitecture.DTOs.Features.Blog;
 global using MediatR;
+global using DotNet8.Architecture_CleanArchitecture.Presentation.Extensions;
+global using DotNet8.Architecture_CleanArchitecture.Application.Extensions;

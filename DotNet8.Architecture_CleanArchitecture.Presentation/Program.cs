@@ -1,5 +1,3 @@
-using DotNet8.Architecture_CleanArchitecture.Presentation.Extensions;
-using DotNet8.Architecture_CleanArchitecture.Application.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
