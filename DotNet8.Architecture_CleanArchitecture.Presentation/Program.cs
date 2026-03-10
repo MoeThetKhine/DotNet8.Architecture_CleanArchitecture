@@ -1,8 +1,15 @@
+using DotNet8.Architecture_CleanArchitecture.Presentation.Extensions;
+using DotNet8.Architecture_CleanArchitecture.Application.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDependencyInjection(builder);
+builder.Services.AddMediatRService();
+
 
 var app = builder.Build();
 
