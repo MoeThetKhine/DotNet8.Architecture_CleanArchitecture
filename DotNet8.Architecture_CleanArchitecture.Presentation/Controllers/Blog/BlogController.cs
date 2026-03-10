@@ -1,5 +1,7 @@
-﻿using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.GetBlogById;
+﻿using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.CreateBlog;
+using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.GetBlogById;
 using DotNet8.Architecture_CleanArchitecture.Application.Features.Blog.GetBlogList;
+using DotNet8.Architecture_CleanArchitecture.DTOs.Features.Blog;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -33,4 +35,14 @@ public class BlogController : BaseController
 
 		return Content(result);
 	}
+
+	[HttpPost]
+	public async Task<IActionResult> CreateBlogAsync([FromBody] BlogRequestModel requestModel, CancellationToken cancellationToken)
+	{
+		var command = new CreateBlogCommand(requestModel);
+		var result = await _mediator.Send(command, cancellationToken);
+
+		return Content(result);
+	}
+
 }
